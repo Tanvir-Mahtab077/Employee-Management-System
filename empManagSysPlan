@@ -1,0 +1,19 @@
+User:
+1.admin
+2.employee
+
+features:
+1.Admin login Panel
+2.admin dashboard
+3.admin can add any employee
+4.admin can search employee
+5.admin can view employee information
+6.admin can delete employee.
+7.admin can edit employee information
+8.employee can login.
+9.employee dashboard.
+10.employee can view his/her own information.
+
+Database Tables:
+1.admin:- col(id,name,status,phone,email)
+2.employee:- col(id,name,status,selary,phone,email)
