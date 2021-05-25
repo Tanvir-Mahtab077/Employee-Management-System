@@ -16,8 +16,8 @@ app.use(cors())
 
 let port=process.env.PORT
 app.listen(port,()=>{
-    const sequelize = new Sequelize('emp_manag_sys', 'root', '', {
-        host: 'localhost',
+    const sequelize = new Sequelize('emp_manag_sys', 'emp_manag_sys', '#JG%*FHK#hds', {
+        host:'localhost',
         dialect:'mysql'
       })
 
