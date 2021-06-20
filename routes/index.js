@@ -1,5 +1,8 @@
 let router=require('express').Router()
+let employeeRoute= require('../routes/employee')
 
+
+router.use('/employee',employeeRoute)
 
 
 router.get('/',(req,res,next)=>{
