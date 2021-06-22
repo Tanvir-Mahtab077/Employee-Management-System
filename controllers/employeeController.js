@@ -12,8 +12,19 @@ let employeeCreate= function(req,res){
     })
 }
 
+let employeeList= function(req,res){
+    //  console.log(req.user)
+        employeeModel.findAll()
+        .then(employees=>{
+            // console.log(employees)
+            res.status(httpStatus.OK).json(employees)
+        })
+
+}
+
 
 
 module.exports={
     employeeCreate,
+    employeeList
 }
